@@ -1,0 +1,72 @@
+#include <stdio.h>
+
+int main(void) // The size of the int type is 4 bytes.
+
+{
+ // On calling out a variable using the printf function
+ char dog = 'A';
+ printf("%c fat dog is of no use\n", dog); // The format specifier specifies the format in which we would like to print our character i.e hex,dec,oct....
+
+ char cat = 'a';
+ printf("%c small cat\n", cat);
+ 
+ char days = 31;
+ printf("I was born on the %dst of March 2005\n",days);
+ 
+ char name;
+ name = 23;
+ printf("%d\n",name);
+ 
+ // wHat have i learned
+ // I have come to notice ASCII playing a role.
+ // when calling upon a number from a char variable,
+ // using "s", you call upon the ASCII number.
+ // using "d", you call upon just how it looks
+ // Below, i will give it a try
+ 
+ // That was wrong, 
+ /* We have different 
+ format specifiers
+ when we want to call upon a letter character, we can use 2 specifiers
+ 1. %d - which converts the single letter character into ASCII
+ 2. %c - which represents is just as it
+ */
+ 
+ 
+ 
+ char dirt;     //dirt2 , dirt3 // wanted to try assigning multiple variables the same type
+ dirt = 'A';
+ printf("%d fat lad", dirt);
+ 
+// I seem to have learnt a few format specifiers
+// - %d - %c - %s
+// Below is an explanation of those format specifiers
+
+printf("\n"); // using printf then "newline" could be a waste of time and space.
+
+// Playing with, Assigning a type to multiple variables.
+
+char raf,raf2,raf3,raf4,raf5,raf6;
+raf = 'a';
+raf2 = 'b';
+raf3 = 'c';
+raf4 = 'd';
+raf5 = 'e';
+raf6 = 'f'; // i wonder if i can write them all on the same newline
+raf = 'a', raf2 = 'b', raf3 = 'c', raf4 = 'd' , raf5 = 'e' , raf6 = 'f';
+
+
+printf("%c is the first letter of the alphabet\n",raf);
+printf("%C is the second letter of the alphabet\n",raf2);
+printf("%c is the third letter of the alphabet\n",raf3);
+printf("%c is the fourth letter of the alphabet\n",raf4);
+printf("%c is the fifth letter of the alphabet\n",raf5);
+printf("%c is the sixth letter of the alphabet",raf6);
+printf("\n");
+printf("Rafiq is \040 a \040 Goated programmer");
+
+ 
+ 
+ 
+    return 0;
+}
