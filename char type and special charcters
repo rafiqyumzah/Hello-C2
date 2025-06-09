@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+int main(void) // The void in the main function means, "accepting no parameters"
+{ // This opening brace is the body of the main function
+    
+// somethng random
+char dope[]="Rafiq Yumzah";
+printf("My name is %s.\n",dope);
+
+// using special characters in a char variable to find out how they should be written
+// remember,in order to access the memory, we have to create and name a variable.
+char StateofPlay;
+     StateofPlay = '*';
+char GameAwards  = '!';
+        printf("%c\n",StateofPlay);
+        printf("%c\n",GameAwards);
+char studio;
+     studio = '@';
+        printf("%c\n",studio);
+        
+char Ending[]= "That'll be all folks";
+     printf("%s",Ending);
+    
+
+    return 0;
+}
